@@ -1,0 +1,40 @@
+body{
+    
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+
+}
+fieldset{
+    border: 5px solid red;
+    background-color: chocolate;
+    width: 450px;
+    height: 550px;
+    border-radius: 20px;
+    animation: animation 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+input{
+    animation: animation 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+    from{box-shadow: 10px 10px 10px black;}
+    to{box-shadow: 10px 10px 10px red;}
+}
+nav{
+    animation: animationnav 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animationnav{
+    from{box-shadow: -4px 3px 15px rgb(0, 0, 0);}
+    to{box-shadow: -4px 3px 15px red;}
+}
+#FAÇA{
+    color: aliceblue;
+}
